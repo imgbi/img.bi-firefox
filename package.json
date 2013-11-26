@@ -1,0 +1,28 @@
+{
+  "name": "imgbi",
+  "fullName": "img.bi",
+  "id": "addon@img.bi",
+  "description": "Upload images to img.bi secure image hosting",
+  "homepage": "https://img.bi/apps",
+  "icon": "data/imgbi48.png",
+  "icon64": "data/imgbi64.png",
+  "author": "Anton Nesterov",
+  "translators": ["Domenico Leone Luciani"],
+  "license": "GPLv3",
+  "version": "0.1",
+  "preferences": [
+    {
+      "name": "url",
+      "title": "URL",
+      "description": "URL of img.bi instance",
+      "type": "string",
+      "value": "https://img.bi"
+    },
+    {
+      "name": "clipboard",
+      "title": "Put link in clipboard",
+      "type": "bool",
+      "value": true
+    }
+  ]
+}
