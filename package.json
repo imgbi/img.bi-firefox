@@ -1,28 +1,33 @@
 {
-  "name": "imgbi",
-  "fullName": "img.bi",
-  "id": "addon@img.bi",
-  "description": "Upload images to img.bi secure image hosting",
-  "homepage": "https://img.bi/apps",
-  "icon": "data/imgbi48.png",
-  "icon64": "data/imgbi64.png",
+  "name": "img.bi-firefox",
+  "version": "0.1.0",
+  "description": "Firefox extension for img.bi encrypted image hosting.",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imgbi/img.bi-firefox.git"
+  },
   "author": "Anton Nesterov",
-  "translators": ["Domenico Leone Luciani"],
   "license": "GPLv3",
-  "version": "0.1",
-  "preferences": [
-    {
-      "name": "url",
-      "title": "URL",
-      "description": "URL of img.bi instance",
-      "type": "string",
-      "value": "https://img.bi"
-    },
-    {
-      "name": "clipboard",
-      "title": "Put link in clipboard",
-      "type": "bool",
-      "value": true
-    }
-  ]
+  "bugs": {
+    "url": "https://github.com/imgbi/img.bi-firefox/issues"
+  },
+  "devDependencies": {
+    "bower": "^1.3.12",
+    "grunt": "^0.4.5",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-less": "^0.12.0",
+    "grunt-jsonlint": "^1.0.4",
+    "grunt-mozilla-addon-sdk": "^0.3.2",
+    "grunt-multiresize": "^0.3.2",
+    "grunt-ng-constant": "^1.0.0",
+    "grunt-webfont": "^0.4.8"
+  }
 }

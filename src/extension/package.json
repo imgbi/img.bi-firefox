@@ -1,0 +1,25 @@
+{
+    "description": "Upload images to img.bi secure image hosting",
+    "license": "GPLv3",
+    "author": "Anton Nesterov",
+    "version": "0.5",
+    "fullName": "img.bi",
+    "id": "addon@img.bi",
+    "name": "imgbi",
+    "homepage": "https://img.bi",
+    "icon": "data/icons/favicon-48x48.png",
+    "icon64": "data/icons/favicon-64x64.png",
+    "license": "GPLv3",
+    "permissions": {
+      "private-browsing": true
+    },
+    "preferences": [
+      {
+        "name": "url",
+        "title": "URL",
+        "description": "URL of img.bi instance",
+        "type": "string",
+        "value": "https://img.bi"
+      }
+    ]
+}
